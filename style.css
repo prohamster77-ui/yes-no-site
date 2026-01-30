@@ -1,0 +1,52 @@
+body {
+  background: #f4cdd2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+button {
+  padding: 20px 40px;
+  font-size: 24px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.yes-button {
+  background: green;
+  color: white;
+}
+
+.no-button {
+  background: red;
+  color: white;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
