@@ -29,7 +29,7 @@ function handleYesClick() {
       "Content-Type": "application/json"
     },
     body: JSON.stringify({
-      answer: "YES clicked",
+      answer: "somebody clicked yes!",
       time: new Date().toLocaleString()
     })
   });
